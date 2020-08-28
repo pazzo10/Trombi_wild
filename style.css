@@ -13,11 +13,14 @@ a {
 
 .navibar {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
     width: 100%;
     z-index: 3;
     background-color: #FFF;
-    margin-bottom: 10em
+    height: 75px;
+}
+
+.logo img{
+    width: 45px;
 }
 
 .navibar ul {
@@ -126,12 +129,13 @@ a {
   top:0;
 }
 
+
+
 /* 48em = 768px @ 16pt font */
 
 @media (min-width: 60em) {
   .navibar li {
     float: left;
-    width: 180px;
   }
   .navibar li a {
     padding: 20px 30px;
@@ -144,7 +148,8 @@ a {
   .navibar .menu-icon {
     display: none;
   }
-}
+    
+    }
 
 
 /* Footer */
@@ -153,9 +158,9 @@ a {
 
 .footer {
 	width: 100%;
-	background: #fff;
 	display: block;
     box-shadow: 2px 2px 6px 0 rgba(0,0,0,.2);
+    background-color: #fff;
  }
 
  .inner-footer {
@@ -165,6 +170,7 @@ a {
 	 flex-wrap: wrap;
 	 box-sizing: border-box;
 	 justify-content: center;
+     background-color: #fff;
  }
 
 .footer-items {
@@ -172,7 +178,8 @@ a {
 	padding: 10px 20px;
 	box-sizing: border-box;
 	color: #000;
-    margin-right: 6em
+    margin-right: 6em;
+    background-color: #fff;
 }
 
 .footer-link {
@@ -180,7 +187,8 @@ a {
 	padding: 10px 20px;
 	box-sizing: border-box;
 	color: #000;
-    margin-left: 3em
+    margin-left: 3em;
+    background-color: #fff;
 }
 
 .footer-items p {
@@ -189,10 +197,12 @@ a {
 	line-height: 25px;
 	color:#000;
     margin-top: 40px;
+    background-color: #fff;
 }
 
 .footer-items h1 {
 	color: #000;
+    background-color: #fff;
     
 }
 
@@ -210,6 +220,7 @@ a {
 	color: #000;
 	font-size: 15px;
 	letter-spacing: 0.5px;	
+    background-color: #fff;
  }
 
 .links  a {
@@ -217,16 +228,28 @@ a {
 	outline: none;
 	color: #000;
 	transition: 0.3s;
+    background-color: #fff;
 }
 
 .links  a:hover {
 	color: #ff9800;
+    background-color: #fff;
 }
 
 .links  li {
 	margin: 10px 0;
 	height: px;
+    background-color: #fff;
 }
+
+.footer-link h3{
+    background-color: #fff;
+}
+
+.footer-items h3 {
+    background-color: #fff;
+}
+
 /*================*/
 
 .adress {
@@ -234,6 +257,7 @@ a {
 	color: #000;
 	font-size: 15px;
 	letter-spacing: 0.5px;	
+    background-color: #fff;
  }
 
 .adress  a {
@@ -241,20 +265,24 @@ a {
 	outline: none;
 	color: #000;
 	transition: 0.3s;
+    background-color: #fff;
 }
 
 .adress  a:hover {
 	color: #ff9800;
+    background-color: #fff;
 }
 
 .adress  li {
 	margin: 10px 0;
 	height: px;
+    background-color: #fff;
 }
 
 
 .adress li i {
 	margin-right: 20px;
+    background-color: #fff;
 }
 
 .social-media {
@@ -262,10 +290,12 @@ a {
 	color: #000;
 	text-align: center;
 	font-size: 20px;
+    background-color: #fff;
 }
 
 .social-media a {
 	text-decoration: none;
+    background-color: #fff;
 }
 
 .social-media i {
@@ -314,3 +344,254 @@ a {
     width: 50%;
     }
 }
+
+
+/*===Caroussel&Trombi=====*/
+
+
+
+.text {
+    text-align: center;
+    
+}
+
+.text h1 {
+	font-size: 30px;
+	 color:#000;;
+	font-family: sans-serif;
+	text-shadow: 0px 10px 10px #000;
+   background-color: #ed6d6e;
+    padding: 30px;
+    opacity: 0.83;
+}
+
+.text p {
+    font-size: 30px;
+	font-family: sans-serif;
+	text-shadow: 0px 10px 10px #000;
+     color:#000;
+    background-color: #ed6d6e;
+    padding: 20px;
+    opacity: 0.83;
+}
+
+.container{
+   width:100%;
+}
+.container h1{
+   font-size:40px
+}
+.about{
+   padding:3% 0;
+   height:auto;
+    margin-left: 5em
+}
+
+.about .left {
+   padding:2% 0;
+   float:left;
+   width:50%;
+   display:inline-block;
+    margin-right: 50px;
+}
+
+.about .right p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about .right{
+   width:40%;
+   display:inline-block;
+}
+
+.about .right img{
+   width:90%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.about .left h1{
+   text-align:center;
+   color:#1EADFF;
+   margin:0 0 10px 0;
+}
+
+.about .left hr{
+   width:15%;
+   border-top:2px solid #000;
+   border-bottom:none;
+    margin-left: 43%;
+}
+
+.about .left p{
+   font-size:1rem;
+   margin:40px auto;
+   width:80%
+}
+
+
+.team{
+   width:90%;
+   margin:auto;
+   padding: 5%;
+    overflow: hidden;
+}
+
+.team h1{
+   text-align:center;
+   color:#1EADFF;
+   
+}
+.team h1 hr{
+   width: 8% !important;
+   border-top:2px solid #000;
+   background-color:transperant;
+   border-bottom:none;
+   margin-bottom:50px;
+    margin-left: 46%;
+}
+
+.staff {
+    width: 7% !important;
+}
+
+.team .card{
+   padding-bottom:30px;
+   padding-top:20px;
+   position:relative;
+   min-width:20%;
+   height:370px !important;
+   height:auto;
+   background-color:#fff;
+   display:inline-block;
+   margin:40px 6.5%;
+   box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+   text-align:center;
+}
+.card .circle-container{
+   position:relative;
+   width:250px;
+   height:250px;
+   border:none;
+   border-radius:50%;
+   margin:auto;
+   color:#fff;
+    margin-bottom: -30px;
+    background-color: #FFF;
+}
+
+.circle-container img{
+    width: 230px;
+     height:260px;
+   position:absolute;
+   top:30%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   margin:0;
+   font-size:60px;
+    border-radius:50%;
+}
+
+.team .card h2{
+   text-align:center;
+   margin:30px 0 0 0;
+    background-color: #FFF;
+}
+.team .card h4{
+   text-align:center;
+   margin:10px 0 0 0;
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+.card h3{
+   margin-top:2px;
+    background-color: #FFF;
+}
+
+.team .card p{
+   width:250px;
+   margin:30px auto;
+   text-align:center;
+    background-color: #FFF;
+
+}
+
+.networking {
+	width: 100%;
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+    background-color: #FFF;
+}
+
+
+.snetworking a {
+	text-decoration: none;
+
+}
+
+.networking i {
+	height: 25px;
+	width: 25px;
+	margin: 20px 10px;
+	padding: 6px;
+	color: #000;
+	transition: 0.5s;
+}
+
+.social-media i:hover {
+	transform: scale(1.5);
+    background-color: #FFF;
+}
+
+.clear{
+    clear: both;			
+}
+
+/* media */
+@media(max-width:1200px){
+   .mission .right p{
+      font-size:.8rem;
+      margin:20px auto;
+   }
+   .about .left p{
+      font-size:.8rem;
+      margin:20px auto;
+   }
+}
+
+
+@media(max-width:992px){
+   .about .left{
+   width:100%; 
+}
+   .about .right{
+   width:100%; 
+}
+      .mission .left{
+   width:100%; 
+}
+   .mission .right{
+   width:100%; 
+}
+   .team .card{ 
+   width:40%;
+}   
+}
+
+@media(max-width:768px){
+      .team .card{ 
+   width:90%;
+} 
+    .text {
+        display: none;
+}
+    
+    .navibar .menu {
+        position: absolute;
+        width: 60%
+    }
+}
+
